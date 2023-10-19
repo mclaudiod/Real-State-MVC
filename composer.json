@@ -1,0 +1,22 @@
+{
+    "name": "claudio/www",
+    "description": "Creating a project with OOP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Claudio D. Morales",
+            "email": "email@email.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
